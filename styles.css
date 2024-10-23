@@ -1,0 +1,145 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background: #da435c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url(imagem/imagem.png);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section#descricao {
+    background: #fff;
+}
+
+section#planos {
+    background: #e2e2e2;
+}
+
+.plano {
+    background: #d3234f;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
+}
+
+.plano h3 {
+    margin: 0;
+}
+
+.plano button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.plano button:hover {
+    background: #555;
+}
+
+section#login form {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#login label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+section#login input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section#login button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section#login button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+  /* Media Queries */
+  
+  @media (max-width: 767px) {
+    main {
+      flex-direction: column;
+    }
+    section {
+      margin-bottom: 10px;
+    }
+    form {
+      flex-direction: column;
+    }
+    input, textarea {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 0.5em;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+    main {
+      padding: 1em;
+    }
+    section {
+      padding: 0.5em;
+    }
+    form {
+      padding: 0.5em;
+    }
+  }
